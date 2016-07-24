@@ -1,2 +1,0 @@
-# Soletta Small OSes Samples
-
