@@ -16,3 +16,14 @@ Resolving deltas: 100% (154/154), done.
 Checking connectivity... done.
 abraham@aarcemor-desk:~/zephyr-project/samples$ 
 ```
+
+```sh
+abraham@aarcemor-desk:~/zephyr-project/samples$ cd soletta-small-oses-samples/
+abraham@aarcemor-desk:~/zephyr-project/samples/soletta-small-oses-samples$ ls
+BUILD                ipm-flow-adc  oic-server           soletta-coap-server
+contiki-coap-server  LICENSE       README.md            soletta-flow
+COPYING              lwm2m-client  RIOT                 soletta-memmap
+ipm                  lwm2m-server  soletta-basic
+ipm-flow             oic-client    soletta-coap-client
+abraham@aarcemor-desk:~/zephyr-project/samples/soletta-small-oses-samples$ 
+```
