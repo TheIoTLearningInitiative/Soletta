@@ -28,5 +28,4 @@ Submodule path 'src/thirdparty/mavlink': checked out '194e833c1fb9221ca3f20f8500
 Submodule path 'src/thirdparty/oic-data-models': checked out 'd728798857a67a5d3c6f16586a1ddab20cbfa2c4'
 Submodule path 'src/thirdparty/tinycbor': checked out '629d5b71823ad91faab60f3f51597f010ad98c0c'
 Submodule path 'src/thirdparty/tinydtls': checked out 'ded031bc0642875daa47946d10e974318a5c95c4'
-
 ```
