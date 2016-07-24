@@ -4,5 +4,5 @@
 * [Introduction](documentation/Introduction.md)
 * [Documentation](documentation/Documentation.md)
    * [Quick Start](documentation/QuickStart.md)
-       * Intel Edison
+       * [Intel Edison](documentation/QuickstartIntelEdison.md)
 
