@@ -22,3 +22,7 @@ npm http 200 https://registry.npmjs.org/bower/-/bower-1.7.9.tgz
 bower@1.7.9 /usr/local/lib/node_modules/bower
 abraham@aarcemor-desk:~$ 
 ```
+
+```sh
+abraham@aarcemor-desk:~$ sudo npm install soletta-dev-app
+```
