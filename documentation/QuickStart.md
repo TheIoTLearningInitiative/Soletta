@@ -2,7 +2,7 @@
 
 > This guide contains information and steps to use and create applications using the Soletta™ Framework [Soletta Project Quickstart](https://github.com/solettaproject/soletta/wiki/Quickstart)
 
-
+Playing with Soletta
 
 - Logic constructs on Soletta flows - Text to avoid pitfalls while doing flow base programming on Soletta
 - HTTP on Soletta flows - Describes the available node types to deal with HTTP
