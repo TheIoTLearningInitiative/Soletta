@@ -307,6 +307,19 @@ make[1]: Leaving directory `/home/abraham/zephyr-project'
 abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ 
 ```
 
+## Makefile.app
+
+```sh
+abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ nano Makefile.app
+```
+
+## Makefile.soletta
+
+```sh
+abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ nano Makefile.soletta
+```
+
+
 # Sandbox
 
 ```sh
