@@ -28,3 +28,24 @@ tools/build/Makefile.common:100: recipe for target 'thirdparty-update' failed
 make: *** [thirdparty-update] Error 1
 root@edison:~/soletta# 
 ```
+
+```sh
+root@edison:~/soletta# make alldefconfig
+find: unrecognized: -not
+BusyBox v1.22.1 (2016-06-06 14:50:27 PDT) multi-call binary.
+
+Usage: find [-HL] [PATH]... [OPTIONS] [ACTIONS]
+
+/usr/bin/env: python3: No such file or directory
+  HOSTCC tools/kconfig/conf.o
+ GEN tools/kconfig/zconf.tab.c
+ GEN tools/kconfig/zconf.lex.c
+ GEN tools/kconfig/zconf.hash.c
+  HOSTCC tools/kconfig/zconf.tab.o
+  HOSTCC tools/kconfig/conf
+tools/kconfig/conf  --alldefconfig Kconfig
+Kconfig:3: can't open file "Kconfig.gen"
+tools/kconfig/Makefile:84: recipe for target 'alldefconfig' failed
+make: *** [alldefconfig] Error 1
+root@edison:~/soletta# 
+```
