@@ -33,3 +33,14 @@ abraham@aarcemor-desk:~/zephyr-project/samples/soletta-small-oses-samples/solett
 config.riot  config.zephyr  Makefile.application  src
 abraham@aarcemor-desk:~/zephyr-project/samples/soletta-small-oses-samples/soletta-basic$ 
 ```
+
+## Compilation Errors
+
+```sh
+  CC      samples/soletta-small-oses-samples/soletta-coap-server/zephyr_stage/src/main.o
+  LD      samples/soletta-small-oses-samples/soletta-coap-server/zephyr_stage/src/built-in.o
+  LINK    zephyr.lnk
+i586-poky-elfiamcu-gcc: error: lib/soletta/lib.a: No such file or directory
+i586-poky-elfiamcu-gcc: error: lib/soletta/lib.a: No such file or directory
+make[3]: *** [.tmp_zephyr.prebuilt] Error 1
+```
