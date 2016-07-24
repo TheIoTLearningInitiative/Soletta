@@ -11,6 +11,8 @@ abraham@aarcemor-desk:~/zephyr-project$ mkdir soletta
 abraham@aarcemor-desk:~/zephyr-project$ 
 ```
 
+## Environment Setup
+
 ```sh
 abraham@aarcemor-desk:~/zephyr-project$ nano zephyr-env.sh 
 abraham@aarcemor-desk:~/zephyr-project$ echo $ZEPHYR_BASE
@@ -26,6 +28,8 @@ export ZEPHYR_GCC_VARIANT=zephyr
 export ZEPHYR_SDK_INSTALL_DIR=/opt/zephyr-sdk
 SOLETTA_BASE_DIR=/home/abraham/soletta
 ```
+
+# Hello Soletta Cloning
 
 ```sh
 abraham@aarcemor-desk:~/zephyr-project$ ls
