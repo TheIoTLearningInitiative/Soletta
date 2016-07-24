@@ -253,9 +253,12 @@ abraham@aarcemor-desk:~/zephyr-project/samples/soletta$
 
 ## prj.conf
 
+```sh
 abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ cat prj.conf 
 CONFIG_STDOUT_CONSOLE=y
 abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ 
+```
+
 
 
 # Sandbox
