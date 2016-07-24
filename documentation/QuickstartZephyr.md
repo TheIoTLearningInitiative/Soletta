@@ -331,6 +331,8 @@ abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ nano sol.conf
 #error "<dirent.h> not supported"
 ```
 
+make distclean your Zephyr Base Code
+
 ```sh
 abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ make
 make[1]: Entering directory `/home/abraham/zephyr-project'
