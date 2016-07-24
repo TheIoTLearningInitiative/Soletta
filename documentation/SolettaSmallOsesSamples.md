@@ -27,3 +27,9 @@ ipm                  lwm2m-server  soletta-basic
 ipm-flow             oic-client    soletta-coap-client
 abraham@aarcemor-desk:~/zephyr-project/samples/soletta-small-oses-samples$ 
 ```
+
+```sh
+abraham@aarcemor-desk:~/zephyr-project/samples/soletta-small-oses-samples/soletta-basic$ ls
+config.riot  config.zephyr  Makefile.application  src
+abraham@aarcemor-desk:~/zephyr-project/samples/soletta-small-oses-samples/soletta-basic$ 
+```
