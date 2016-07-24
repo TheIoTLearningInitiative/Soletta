@@ -259,7 +259,46 @@ CONFIG_STDOUT_CONSOLE=y
 abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ 
 ```
 
+```sh
+```
 
+```sh
+abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ make BOARD=qemu_x86
+Using /home/abraham/zephyr-project/boards/qemu_x86/qemu_x86_defconfig as base
+Merging /home/abraham/zephyr-project/kernel/configs/micro.config
+Merging prj.conf
+#
+# configuration written to .config
+#
+make[1]: Entering directory `/home/abraham/zephyr-project'
+make[2]: Entering directory `/home/abraham/zephyr-project/samples/soletta/outdir'
+  GEN     ./Makefile
+scripts/kconfig/conf --silentoldconfig Kconfig
+make[2]: Leaving directory `/home/abraham/zephyr-project/samples/soletta/outdir'
+make[2]: Entering directory `/home/abraham/zephyr-project/samples/soletta/outdir'
+  Using /home/abraham/zephyr-project as source for kernel
+  GEN     ./Makefile
+  CHK     include/generated/version.h
+  CHK     misc/generated/configs.c
+  UPD     misc/generated/configs.c
+  CHK     include/generated/offsets.h
+  CHK     misc/generated/sysgen/prj.mdef
+  CC      kernel/nanokernel/nano_init.o
+  LD      kernel/nanokernel/built-in.o
+  LD      kernel/built-in.o
+  CC      misc/generated/configs.o
+  CC      misc/generated/sysgen/kernel_main.o
+  LD      misc/generated/sysgen/built-in.o
+  LD      misc/generated/built-in.o
+  LD      misc/built-in.o
+  LINK    zephyr.lnk
+  SIDT    staticIdt.o
+  LINK    zephyr.elf
+  BIN     zephyr.bin
+make[2]: Leaving directory `/home/abraham/zephyr-project/samples/soletta/outdir'
+make[1]: Leaving directory `/home/abraham/zephyr-project'
+abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ 
+```
 
 # Sandbox
 
