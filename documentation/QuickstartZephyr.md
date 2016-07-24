@@ -29,7 +29,7 @@ export ZEPHYR_SDK_INSTALL_DIR=/opt/zephyr-sdk
 SOLETTA_BASE_DIR=/home/abraham/soletta
 ```
 
-# Hello Soletta Base Code
+## Hello Soletta Base Code
 
 ```sh
 abraham@aarcemor-desk:~/zephyr-project$ ls
