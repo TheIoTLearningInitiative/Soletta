@@ -69,7 +69,18 @@ SOLETTA_BASE_DIR=/home/abraham/soletta
 ```
 
 ```sh
-
+abraham@aarcemor-desk:~/zephyr-project$ ls
+arch     ext      Kconfig.zephyr  MAINTAINERS   net      tests
+boards   include  kernel          Makefile      samples  zephyr-env.sh
+doc      Kbuild   lib             Makefile.inc  scripts
+drivers  Kconfig  LICENSE         misc          soletta
+abraham@aarcemor-desk:~/zephyr-project$ cd samples/hello_world/microkernel/
+abraham@aarcemor-desk:~/zephyr-project/samples/hello_world/microkernel$ make distclean
+make[1]: Entering directory `/home/abraham/zephyr-project'
+make[2]: Entering directory `/home/abraham/zephyr-project/samples/hello_world/microkernel/outdir'
+make[2]: Leaving directory `/home/abraham/zephyr-project/samples/hello_world/microkernel/outdir'
+make[1]: Leaving directory `/home/abraham/zephyr-project'
+abraham@aarcemor-desk:~/zephyr-project/samples/hello_world/microkernel$ 
 ```
 
 # Sandbox
