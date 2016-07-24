@@ -22,4 +22,6 @@ Submodule 'src/thirdparty/mavlink' (https://github.com/mavlink/c_library.git) re
 Submodule 'src/thirdparty/oic-data-models' (https://github.com/OpenInterConnect/IoTDataModels) registered for path 'src/thirdparty/oic-data-models'
 Submodule 'src/thirdparty/tinycbor' (https://github.com/01org/tinycbor/) registered for path 'src/thirdparty/tinycbor'
 Submodule 'src/thirdparty/tinydtls' (git://git.code.sf.net/p/tinydtls/code) registered for path 'src/thirdparty/tinydtls'
+...
+
 ```
