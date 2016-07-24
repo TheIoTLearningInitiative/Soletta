@@ -10,5 +10,5 @@
        * [Soletta Small OSes Samples](documentation/SolettaSmallOsesSamples.md)
            * [quark_se_devboard](documentation/SSOSQuarkSeDevboard.md)
            * [qemu_x86](documentation/SSOSQemuX86.md)
-* Soletta Development Application
+* [Soletta Development Application](documentation/SolettaDevelopmentApplication.md)
 
