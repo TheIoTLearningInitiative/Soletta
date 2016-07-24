@@ -1,6 +1,5 @@
 # Documentation
 
-
 - [Getting Started](https://github.com/solettaproject/soletta/wiki)
   - With Soletta Project's libraries developers can easily write software for devices that control actuators/sensors and communicate using standard technologies.
 - [All Documentation](https://github.com/solettaproject/soletta/wiki/Documentation)
