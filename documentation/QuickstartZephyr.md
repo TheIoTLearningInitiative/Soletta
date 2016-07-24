@@ -63,7 +63,9 @@ abraham@aarcemor-desk:~/zephyr-project$
 ```
 
 ```sh
-
+export ZEPHYR_GCC_VARIANT=zephyr
+export ZEPHYR_SDK_INSTALL_DIR=/opt/zephyr-sdk
+SOLETTA_BASE_DIR=/home/abraham/soletta
 ```
 
 ```sh
