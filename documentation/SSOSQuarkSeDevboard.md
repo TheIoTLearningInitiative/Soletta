@@ -1,6 +1,5 @@
 # quark_se_devboard
 
-
 ```sh
 abraham@aarcemor-desk:~/zephyr-project/samples/soletta-small-oses-samples/soletta-basic$ make -C ../BUILD zephyr BOARD=quark_se_devboard flash
 make: Entering directory `/home/abraham/zephyr-project/samples/soletta-small-oses-samples/BUILD'
