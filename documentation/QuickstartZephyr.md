@@ -328,7 +328,14 @@ abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ nano sol.conf
 ## Application
 
 ```
-
+abraham@aarcemor-desk:~/soletta/src/samples$ ls
+bluetooth  common  design_patterns  http     mqtt     nodejs
+coap       crypto  flow             mavlink  network
+abraham@aarcemor-desk:~/soletta/src/samples$ cd mqtt/
+abraham@aarcemor-desk:~/soletta/src/samples/mqtt$ ls
+Kconfig  Makefile  mqtt-publish.c  mqtt-subscribe.c
+abraham@aarcemor-desk:~/soletta/src/samples/mqtt$ cp * ~/zephyr-project/samples/soletta/src/
+abraham@aarcemor-desk:~/soletta/src/samples/mqtt$ 
 ```
 
 ```sh
