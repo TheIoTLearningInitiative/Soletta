@@ -260,6 +260,7 @@ abraham@aarcemor-desk:~/zephyr-project/samples/soletta$
 ```
 
 ```sh
+abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ nano prj.conf
 ```
 
 ```sh
