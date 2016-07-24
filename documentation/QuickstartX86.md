@@ -44,3 +44,4 @@ tools/kconfig/conf  --alldefconfig Kconfig
 #
 abraham@aarcemor-desk:~/soletta$ 
 ```
+
