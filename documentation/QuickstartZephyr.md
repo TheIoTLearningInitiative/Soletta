@@ -83,6 +83,10 @@ make[1]: Leaving directory `/home/abraham/zephyr-project'
 abraham@aarcemor-desk:~/zephyr-project/samples/hello_world/microkernel$ 
 ```
 
+```sh
+abraham@aarcemor-desk:~/zephyr-project/samples/hello_world/microkernel$ cd ../..abraham@aarcemor-desk:~/zephyr-project/samples$ cp -r hello_world/microkernel/ soletta
+```
+
 # Sandbox
 
 ```sh
