@@ -413,6 +413,8 @@ In file included from /opt/zephyr-sdk/sysroots/iamcu-poky-elfiamcu/usr/i586-defa
 
 ### fatal error: sysgen.h: No such file or directory
 
+when selecting KERNEL_TYPE ?= micro
+
 ```sh
       CC   build/stage/lib/io/sol-memmap-storage.o
       CC   build/stage/lib/io/sol-memmap-storage-impl-zephyr.o
