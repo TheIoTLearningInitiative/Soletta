@@ -26,3 +26,16 @@ abraham@aarcemor-desk:~$
 ```sh
 abraham@aarcemor-desk:~$ sudo npm install soletta-dev-app
 ```
+
+```sh
+abraham@aarcemor-desk:~$ cd node_modules/
+abraham@aarcemor-desk:~/node_modules$ ls
+soletta-dev-app
+abraham@aarcemor-desk:~/node_modules$ cd soletta-dev-app/
+abraham@aarcemor-desk:~/node_modules/soletta-dev-app$ ls
+AUTHORS     install.sh    package.json          repos    test_case
+bower.json  LICENSE       protractor.config.js  scripts
+client      licenses      README.md             server
+COPYING     node_modules  refresh.sh            tags
+abraham@aarcemor-desk:~/node_modules/soletta-dev-app$ 
+```
