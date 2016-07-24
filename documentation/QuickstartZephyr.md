@@ -327,6 +327,44 @@ abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ nano sol.conf
 
 
 ```sh
+abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ make
+make[1]: Entering directory `/home/abraham/zephyr-project'
+make[2]: Entering directory `/home/abraham/zephyr-project/samples/soletta/outdir'
+  Using /home/abraham/zephyr-project as source for kernel
+  GEN     ./Makefile
+  CHK     include/generated/version.h
+make -C /home/abraham/soletta CFLAGS="-c -g -std=c99 -fno-asynchronous-unwind-tables -Wall -Wno-format-zero-length -Wno-main -ffreestanding -Os -fno-stack-protector -fno-omit-frame-pointer  -ffunction-sections -fdata-sections -mpreferred-stack-boundary=2 -mno-sse -march=lakemont -mtune=lakemont -msoft-float -miamcu  -Wno-unused-but-set-variable -fno-reorder-functions -fno-defer-pop -Wno-pointer-sign -fno-strict-overflow -Werror=implicit-int  -DKERNEL  -I/home/abraham/zephyr-project/arch/x86/include -I/home/abraham/zephyr-project/arch/x86/soc/quark_se -I/home/abraham/zephyr-project/boards/arduino_101  -I/home/abraham/zephyr-project/include -I/home/abraham/zephyr-project/include -I/home/abraham/zephyr-project/samples/soletta/outdir/include/generated -I/home/abraham/zephyr-project/samples/soletta/outdir/misc/generated/sysgen -include /home/abraham/zephyr-project/samples/soletta/outdir/include/generated/autoconf.h  -I/home/abraham/soletta/build/soletta_sysroot/usr/include/soletta -I/opt/zephyr-sdk/sysroots/iamcu-poky-elfiamcu/usr/i586-default-elfiamcu/include -Wno-missing-include-dirs" LDFLAGS="-nostartfiles -nodefaultlibs -nostdlib -static -L /opt/zephyr-sdk/sysroots/iamcu-poky-elfiamcu/usr/lib/i586-poky-elfiamcu/5.2.1 -L /opt/zephyr-sdk/sysroots/iamcu-poky-elfiamcu/usr/i586-default-elfiamcu/lib/" alldefconfig
+make[4]: Entering directory `/home/abraham/soletta'
+tools/kconfig/conf  --alldefconfig Kconfig
+#
+# configuration written to .config
+#
+make[4]: Leaving directory `/home/abraham/soletta'
+(cd /home/abraham/soletta; tools/kconfig/merge_config.sh .config /home/abraham/zephyr-project/samples/soletta/sol.conf)
+Using .config as base
+Merging /home/abraham/zephyr-project/samples/soletta/sol.conf
+make[4]: Entering directory `/home/abraham/soletta'
+tools/kconfig/conf  --alldefconfig Kconfig
+./.tmp.config.gxjkREoh8c:417:warning: override: reassigning to symbol FLOW_NODE_TYPE_GROVE
+./.tmp.config.gxjkREoh8c:418:warning: override: reassigning to symbol FLOW_NODE_TYPE_GYROSCOPE
+./.tmp.config.gxjkREoh8c:419:warning: override: reassigning to symbol FLOW_NODE_TYPE_JSON
+./.tmp.config.gxjkREoh8c:420:warning: override: reassigning to symbol FLOW_NODE_TYPE_LED_7SEG
+./.tmp.config.gxjkREoh8c:421:warning: override: reassigning to symbol FLOW_NODE_TYPE_LED_STRIP
+./.tmp.config.gxjkREoh8c:422:warning: override: reassigning to symbol FLOW_NODE_TYPE_MAGNETOMETER
+#
+# configuration written to .config
+#
+make[4]: Leaving directory `/home/abraham/soletta'
+make -C /home/abraham/soletta CFLAGS="-c -g -std=c99 -fno-asynchronous-unwind-tables -Wall -Wno-format-zero-length -Wno-main -ffreestanding -Os -fno-stack-protector -fno-omit-frame-pointer  -ffunction-sections -fdata-sections -mpreferred-stack-boundary=2 -mno-sse -march=lakemont -mtune=lakemont -msoft-float -miamcu  -Wno-unused-but-set-variable -fno-reorder-functions -fno-defer-pop -Wno-pointer-sign -fno-strict-overflow -Werror=implicit-int  -DKERNEL  -I/home/abraham/zephyr-project/arch/x86/include -I/home/abraham/zephyr-project/arch/x86/soc/quark_se -I/home/abraham/zephyr-project/boards/arduino_101  -I/home/abraham/zephyr-project/include -I/home/abraham/zephyr-project/include -I/home/abraham/zephyr-project/samples/soletta/outdir/include/generated -I/home/abraham/zephyr-project/samples/soletta/outdir/misc/generated/sysgen -include /home/abraham/zephyr-project/samples/soletta/outdir/include/generated/autoconf.h  -I/home/abraham/soletta/build/soletta_sysroot/usr/include/soletta -I/opt/zephyr-sdk/sysroots/iamcu-poky-elfiamcu/usr/i586-default-elfiamcu/include -Wno-missing-include-dirs" LDFLAGS="-nostartfiles -nodefaultlibs -nostdlib -static -L /opt/zephyr-sdk/sysroots/iamcu-poky-elfiamcu/usr/lib/i586-poky-elfiamcu/5.2.1 -L /opt/zephyr-sdk/sysroots/iamcu-poky-elfiamcu/usr/i586-default-elfiamcu/lib/"
+make[4]: Entering directory `/home/abraham/soletta'
+     GEN   build/soletta_sysroot/usr/include/soletta/sol-flow-buildopts.h
+     GEN   build/soletta_sysroot/usr/include/soletta/sol-common-buildopts.h
+     GEN   build/stage/lib/common/sol-platform-linux-micro-builtins-gen.h
+     GEN   build/stage/lib/common/sol-pin-mux-builtins-gen.h
+     GEN   build/stage/lib/common/sol-update-builtins-gen.h
+     GEN   build/stage/lib/flow/sol-flow-builtins-gen.h
+     GEN   build/stage/lib/flow/sol-flow-metatype-builtins-gen.h
+     GEN   include/generated/sol_config.h
 In file included from /opt/zephyr-sdk/sysroots/iamcu-poky-elfiamcu/usr/i586-default-elfiamcu/include/dirent.h:6:0,
                  from ./build/soletta_sysroot/usr/include/soletta/sol-util-file.h:24,
                  from ./src/lib/common/sol-util-internal.h:38,
@@ -338,6 +376,13 @@ In file included from /opt/zephyr-sdk/sysroots/iamcu-poky-elfiamcu/usr/i586-defa
                  from ./build/soletta_sysroot/usr/include/soletta/sol-util-file.h:24,
                  from ./src/lib/common/sol-util-internal.h:38,
                  from ./src/shared/sol-conffile.c:33:
+/opt/zephyr-sdk/sysroots/iamcu-poky-elfiamcu/usr/i586-default-elfiamcu/include/sys/dirent.h:10:2: error: #error "<dirent.h> not supported"
+ #error "<dirent.h> not supported"
+  ^
+In file included from /opt/zephyr-sdk/sysroots/iamcu-poky-elfiamcu/usr/i586-default-elfiamcu/include/dirent.h:6:0,
+                 from ./build/soletta_sysroot/usr/include/soletta/sol-util-file.h:24,
+                 from ./src/lib/common/sol-util-internal.h:38,
+                 from ./src/shared/sol-fbp-internal-log.c:25:
 ```
 
 # Sandbox
