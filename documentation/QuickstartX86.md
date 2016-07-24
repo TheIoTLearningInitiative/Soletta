@@ -23,5 +23,10 @@ Submodule 'src/thirdparty/oic-data-models' (https://github.com/OpenInterConnect/
 Submodule 'src/thirdparty/tinycbor' (https://github.com/01org/tinycbor/) registered for path 'src/thirdparty/tinycbor'
 Submodule 'src/thirdparty/tinydtls' (git://git.code.sf.net/p/tinydtls/code) registered for path 'src/thirdparty/tinydtls'
 ...
+Submodule path 'src/thirdparty/duktape': checked out '42c26302ddb44d5341333d2ff928cdbc9621e3f5'
+Submodule path 'src/thirdparty/mavlink': checked out '194e833c1fb9221ca3f20f85009e5693b32de431'
+Submodule path 'src/thirdparty/oic-data-models': checked out 'd728798857a67a5d3c6f16586a1ddab20cbfa2c4'
+Submodule path 'src/thirdparty/tinycbor': checked out '629d5b71823ad91faab60f3f51597f010ad98c0c'
+Submodule path 'src/thirdparty/tinydtls': checked out 'ded031bc0642875daa47946d10e974318a5c95c4'
 
 ```
