@@ -432,3 +432,5 @@ make[1]: Leaving directory `/home/abraham/zephyr-project'
 make: *** [all] Error 2
 abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ 
 ```
+
+### 
