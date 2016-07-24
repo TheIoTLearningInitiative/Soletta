@@ -68,6 +68,9 @@ export ZEPHYR_SDK_INSTALL_DIR=/opt/zephyr-sdk
 SOLETTA_BASE_DIR=/home/abraham/soletta
 ```
 
+```sh
+
+```
 
 # Sandbox
 
