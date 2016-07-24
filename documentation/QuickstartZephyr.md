@@ -327,9 +327,17 @@ abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ nano sol.conf
 
 
 ```sh
+In file included from /opt/zephyr-sdk/sysroots/iamcu-poky-elfiamcu/usr/i586-default-elfiamcu/include/dirent.h:6:0,
+                 from ./build/soletta_sysroot/usr/include/soletta/sol-util-file.h:24,
+                 from ./src/lib/common/sol-util-internal.h:38,
+                 from ./src/shared/sol-lib-loader.c:27:
 /opt/zephyr-sdk/sysroots/iamcu-poky-elfiamcu/usr/i586-default-elfiamcu/include/sys/dirent.h:10:2: error: #error "<dirent.h> not supported"
  #error "<dirent.h> not supported"
   ^
+In file included from /opt/zephyr-sdk/sysroots/iamcu-poky-elfiamcu/usr/i586-default-elfiamcu/include/dirent.h:6:0,
+                 from ./build/soletta_sysroot/usr/include/soletta/sol-util-file.h:24,
+                 from ./src/lib/common/sol-util-internal.h:38,
+                 from ./src/shared/sol-conffile.c:33:
 ```
 
 # Sandbox
