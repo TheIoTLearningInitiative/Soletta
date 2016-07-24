@@ -10,3 +10,11 @@ doc     include  Kconfig.zephyr  LICENSE  Makefile.inc  samples  zephyr-env.sh
 abraham@aarcemor-desk:~/zephyr-project$ mkdir soletta
 abraham@aarcemor-desk:~/zephyr-project$ 
 ```
+
+```sh
+abraham@aarcemor-desk:~/zephyr-project$ nano soletta/Makefile
+```
+
+```C
+
+```
