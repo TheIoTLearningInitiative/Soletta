@@ -1,5 +1,8 @@
 # Documentation
 
+- [README](https://github.com/solettaproject/soletta/blob/master/README.md)
+  - Soletta Project is a framework for making IoT devices. With Soletta Project's libraries developers can easily write software for devices that control actuators/sensors and communicate using standard technologies. It enables adding smartness even on the smallest edge devices.
+  - Portable and scalable, it abstracts details of hardware and OS, enabling developers to reuse their code and knowledge on different targets. 
 - [Getting Started](https://github.com/solettaproject/soletta/wiki)
   - With Soletta Project's libraries developers can easily write software for devices that control actuators/sensors and communicate using standard technologies.
 - [All Documentation](https://github.com/solettaproject/soletta/wiki/Documentation)
