@@ -433,4 +433,17 @@ make: *** [all] Error 2
 abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ 
 ```
 
-### 
+###
+
+```sh
+CC   build/stage/lib/io/sol-memmap-storage.o
+      CC   build/stage/lib/io/sol-memmap-storage-impl-zephyr.o
+make[4]: *** No rule to make target `ipm/ipm_quark_se.h', needed by `build/stage/lib/io/sol-ipm.o'.  Stop.
+make[4]: Leaving directory `/home/abraham/soletta'
+make[3]: *** [all] Error 2
+make[2]: *** [/home/abraham/soletta/build/soletta_sysroot/usr/lib/libsoletta.a] Error 2
+make[2]: Leaving directory `/home/abraham/zephyr-project/samples/soletta/outdir'
+make[1]: *** [sub-make] Error 2
+make[1]: Leaving directory `/home/abraham/zephyr-project'
+make: *** [all] Error 2
+```
