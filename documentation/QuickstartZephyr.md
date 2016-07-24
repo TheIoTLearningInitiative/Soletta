@@ -264,6 +264,12 @@ abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ nano prj.conf
 ```
 
 ```sh
+CONFIG_STDOUT_CONSOLE=y
+CONFIG_NEWLIB_LIBC=y
+CONFIG_MAIN_STACK_SIZE=256
+```
+
+```sh
 abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ make BOARD=qemu_x86
 Using /home/abraham/zephyr-project/boards/qemu_x86/qemu_x86_defconfig as base
 Merging /home/abraham/zephyr-project/kernel/configs/micro.config
