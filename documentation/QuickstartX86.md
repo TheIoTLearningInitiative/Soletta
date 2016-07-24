@@ -29,3 +29,18 @@ Submodule path 'src/thirdparty/oic-data-models': checked out 'd728798857a67a5d3c
 Submodule path 'src/thirdparty/tinycbor': checked out '629d5b71823ad91faab60f3f51597f010ad98c0c'
 Submodule path 'src/thirdparty/tinydtls': checked out 'ded031bc0642875daa47946d10e974318a5c95c4'
 ```
+
+```sh
+abraham@aarcemor-desk:~/soletta$ make alldefconfig
+  HOSTCC tools/kconfig/conf.o
+ GEN tools/kconfig/zconf.tab.c
+ GEN tools/kconfig/zconf.lex.c
+ GEN tools/kconfig/zconf.hash.c
+  HOSTCC tools/kconfig/zconf.tab.o
+  HOSTCC tools/kconfig/conf
+tools/kconfig/conf  --alldefconfig Kconfig
+#
+# configuration written to .config
+#
+abraham@aarcemor-desk:~/soletta$ 
+```
