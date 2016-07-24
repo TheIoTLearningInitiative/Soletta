@@ -590,7 +590,13 @@ abraham@aarcemor-desk:~/soletta$
 - Flow Based Programming (FBP)
 - Cryptography and Signatures
 - Networking
+  - Network
+  - CoAP
+  - HTTP Common
+  - HTTP Client
+  - LWM2M 
 - Samples
 - Tools
 - Test suite
 - Bindings
+- 
