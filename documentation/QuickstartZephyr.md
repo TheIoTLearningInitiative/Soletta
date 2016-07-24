@@ -53,7 +53,17 @@ include $(ZEPHYR_BASE)/Makefile.inc
 ```
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project$ source zephyr-env.sh 
+abraham@aarcemor-desk:~/zephyr-project$ nano zephyr-env.sh 
+abraham@aarcemor-desk:~/zephyr-project$ echo $ZEPHYR_BASE
+/home/abraham/zephyr-project
+abraham@aarcemor-desk:~/zephyr-project$ export ZEPHYR_GCC_VARIANT=zephyr
+abraham@aarcemor-desk:~/zephyr-project$ export ZEPHYR_SDK_INSTALL_DIR=/opt/zephyr-sdk
+abraham@aarcemor-desk:~/zephyr-project$ export SOLETTA_BASE_DIR=/home/abraham/soletta
+abraham@aarcemor-desk:~/zephyr-project$ 
+```
+
+```sh
+
 ```
 
 ```sh
