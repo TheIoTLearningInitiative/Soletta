@@ -58,5 +58,16 @@ abraham@aarcemor-desk:~/zephyr-project$ source zephyr-env.sh
 
 ```sh
 abraham@aarcemor-desk:~/zephyr-project$ cd $ZEPHYR_BASE/samples/hello_world/microkernel
+abraham@aarcemor-desk:~/zephyr-project/samples/hello_world/microkernel$ make BOARD=qemu_x86
+make[1]: Entering directory `/home/abraham/zephyr-project'
+make[2]: Entering directory `/home/abraham/zephyr-project/samples/hello_world/microkernel/outdir'
+  Using /home/abraham/zephyr-project as source for kernel
+  GEN     ./Makefile
+  CHK     include/generated/version.h
+  CHK     misc/generated/configs.c
+  CHK     include/generated/offsets.h
+  CHK     misc/generated/sysgen/prj.mdef
+make[2]: Leaving directory `/home/abraham/zephyr-project/samples/hello_world/microkernel/outdir'
+make[1]: Leaving directory `/home/abraham/zephyr-project'
 abraham@aarcemor-desk:~/zephyr-project/samples/hello_world/microkernel$ 
 ```
