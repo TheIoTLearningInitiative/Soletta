@@ -325,6 +325,18 @@ abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ nano Makefile.soletta
 abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ nano sol.conf
 ```
 
+## Application
+
+```
+
+```
+
+```sh
+abraham@aarcemor-desk:~/zephyr-project/samples/soletta/src$ ls
+Kconfig  Makefile  mqtt-publish.c  mqtt-subscribe.c
+abraham@aarcemor-desk:~/zephyr-project/samples/soletta/src$ 
+```
+
 ## Errors
 
 ### #error "<dirent.h> not supported"
