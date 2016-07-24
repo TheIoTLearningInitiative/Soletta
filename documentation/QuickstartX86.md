@@ -15,5 +15,11 @@ abraham@aarcemor-desk:~$
 ```
 
 ```sh
-
+abraham@aarcemor-desk:~$ cd soletta/
+abraham@aarcemor-desk:~/soletta$ make thirdparty-update
+Submodule 'src/thirdparty/duktape' (https://github.com/solettaproject/duktape-release.git) registered for path 'src/thirdparty/duktape'
+Submodule 'src/thirdparty/mavlink' (https://github.com/mavlink/c_library.git) registered for path 'src/thirdparty/mavlink'
+Submodule 'src/thirdparty/oic-data-models' (https://github.com/OpenInterConnect/IoTDataModels) registered for path 'src/thirdparty/oic-data-models'
+Submodule 'src/thirdparty/tinycbor' (https://github.com/01org/tinycbor/) registered for path 'src/thirdparty/tinycbor'
+Submodule 'src/thirdparty/tinydtls' (git://git.code.sf.net/p/tinydtls/code) registered for path 'src/thirdparty/tinydtls'
 ```
