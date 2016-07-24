@@ -319,6 +319,11 @@ abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ nano Makefile.app
 abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ nano Makefile.soletta
 ```
 
+```sh
+/opt/zephyr-sdk/sysroots/iamcu-poky-elfiamcu/usr/i586-default-elfiamcu/include/sys/dirent.h:10:2: error: #error "<dirent.h> not supported"
+ #error "<dirent.h> not supported"
+  ^
+```
 
 # Sandbox
 
