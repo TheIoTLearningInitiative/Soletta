@@ -55,3 +55,8 @@ include $(ZEPHYR_BASE)/Makefile.inc
 ```sh
 abraham@aarcemor-desk:~/zephyr-project$ source zephyr-env.sh 
 ```
+
+```sh
+abraham@aarcemor-desk:~/zephyr-project$ cd $ZEPHYR_BASE/samples/hello_world/microkernel
+abraham@aarcemor-desk:~/zephyr-project/samples/hello_world/microkernel$ 
+```
