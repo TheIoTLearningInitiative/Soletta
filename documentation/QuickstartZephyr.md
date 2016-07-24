@@ -396,8 +396,7 @@ In file included from /opt/zephyr-sdk/sysroots/iamcu-poky-elfiamcu/usr/i586-defa
                  from ./src/shared/sol-fbp-internal-log.c:25:
 ```
 
-### 
-
+### fatal error: sysgen.h: No such file or directory
 
 ```sh
       CC   build/stage/lib/io/sol-memmap-storage.o
