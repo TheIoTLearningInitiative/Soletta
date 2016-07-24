@@ -584,3 +584,13 @@ abraham@aarcemor-desk:~/soletta$ make samples
 Alias file saved at ./build/soletta_sysroot/usr/share//soletta//flow//aliases//50-default.json
 abraham@aarcemor-desk:~/soletta$ 
 ```
+
+- Basic
+- Core Library
+- Flow Based Programming (FBP)
+- Cryptography and Signatures
+- Networking
+- Samples
+- Tools
+- Test suite
+- Bindings
