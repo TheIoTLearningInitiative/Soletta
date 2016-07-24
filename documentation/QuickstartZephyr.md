@@ -50,6 +50,11 @@ abraham@aarcemor-desk:~/zephyr-project/samples/hello_world/microkernel$ cd ../..
 abraham@aarcemor-desk:~/zephyr-project/samples$ cd soletta/
 abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ ls
 Makefile  outdir  prj.conf  prj.mdef  README.txt  src
+```
+
+## Makefile
+
+```sh
 abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ cat Makefile
 ```
 
