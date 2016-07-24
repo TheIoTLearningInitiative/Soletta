@@ -327,11 +327,7 @@ abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ nano sol.conf
 
 ## Errors
 
-### dirent.h
-
-```sh
-#error "<dirent.h> not supported"
-```
+### #error "<dirent.h> not supported"
 
 make distclean your Zephyr Base Code
 
