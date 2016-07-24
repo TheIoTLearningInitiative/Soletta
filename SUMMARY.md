@@ -8,5 +8,5 @@
        * [x86](documentation/QuickstartX86.md)
        * [Zephyr](documentation/QuickstartZephyr.md)
        * [Soletta Small OSes Samples](documentation/SolettaSmallOsesSamples.md)
-           * quark_se_devboard
+           * [quark_se_devboard](documentation/SSOSQuarkSeDevboard.md)
 
