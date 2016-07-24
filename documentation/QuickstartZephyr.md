@@ -68,6 +68,9 @@ export ZEPHYR_SDK_INSTALL_DIR=/opt/zephyr-sdk
 SOLETTA_BASE_DIR=/home/abraham/soletta
 ```
 
+
+# Sandbox
+
 ```sh
 abraham@aarcemor-desk:~/zephyr-project$ cd $ZEPHYR_BASE/samples/hello_world/microkernel
 abraham@aarcemor-desk:~/zephyr-project/samples/hello_world/microkernel$ make BOARD=qemu_x86
