@@ -433,7 +433,7 @@ make: *** [all] Error 2
 abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ 
 ```
 
-###
+### No rule to make target `ipm/ipm_quark_se.h'
 
 ```sh
 CC   build/stage/lib/io/sol-memmap-storage.o
