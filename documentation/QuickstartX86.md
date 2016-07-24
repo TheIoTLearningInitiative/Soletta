@@ -620,4 +620,3 @@ abraham@aarcemor-desk:~/soletta$
 - Tools
 - Test suite
 - Bindings
-- 
