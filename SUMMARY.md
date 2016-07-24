@@ -3,5 +3,5 @@
 * [Cover](README.md)
 * [Introduction](documentation/Introduction.md)
 * [Documentation](documentation/Documentation.md)
-   * Quick Start
+   * [Quick Start](documentation/QuickStart.md)
 
