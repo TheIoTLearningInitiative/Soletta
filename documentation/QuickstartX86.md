@@ -585,6 +585,27 @@ Alias file saved at ./build/soletta_sysroot/usr/share//soletta//flow//aliases//5
 abraham@aarcemor-desk:~/soletta$ 
 ```
 
+# Configuration
+
+```sh
+abraham@aarcemor-desk:~/soletta$ make menuconfig
+  HOSTCC tools/kconfig/mconf.o
+  HOSTCC tools/kconfig/lxdialog/checklist.o
+  HOSTCC tools/kconfig/lxdialog/util.o
+  HOSTCC tools/kconfig/lxdialog/inputbox.o
+  HOSTCC tools/kconfig/lxdialog/textbox.o
+  HOSTCC tools/kconfig/lxdialog/yesno.o
+  HOSTCC tools/kconfig/lxdialog/menubox.o
+  HOSTCC tools/kconfig/mconf
+tools/kconfig/mconf  Kconfig
+
+
+*** End of the configuration.
+*** Execute 'make' to start the build or try 'make help'.
+
+abraham@aarcemor-desk:~/soletta$ 
+```
+
 - Basic
 - Core Library
 - Flow Based Programming (FBP)
