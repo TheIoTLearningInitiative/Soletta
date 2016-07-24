@@ -94,6 +94,15 @@ Makefile  outdir  prj.conf  prj.mdef  README.txt  src
 abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ 
 ```
 
+```sh
+MDEF_FILE = prj.mdef
+KERNEL_TYPE = micro
+BOARD ?= qemu_x86
+CONF_FILE = prj.conf
+
+include ${ZEPHYR_BASE}/Makefile.inc
+```
+
 # Sandbox
 
 ```sh
