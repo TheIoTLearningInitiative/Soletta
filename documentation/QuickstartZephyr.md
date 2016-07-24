@@ -325,6 +325,11 @@ abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ nano Makefile.soletta
 abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ nano sol.conf
 ```
 
+## Errors
+
+```sh
+#error "<dirent.h> not supported"
+```
 
 ```sh
 abraham@aarcemor-desk:~/zephyr-project/samples/soletta$ make
