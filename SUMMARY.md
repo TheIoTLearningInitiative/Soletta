@@ -7,5 +7,5 @@
        * [Intel Edison](documentation/QuickstartIntelEdison.md)
        * [x86](documentation/QuickstartX86.md)
        * [Zephyr](documentation/QuickstartZephyr.md)
-       * Soletta Small OSes Samples
+       * [Soletta Small OSes Samples](documentation/SolettaSmallOsesSamples.md)
 
